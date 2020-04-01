@@ -8,7 +8,6 @@
 }
 /* write your parent styles in here for your App.js */
 .card-container {
-    max-width: vw;
     display: flex;
     flex-wrap: wrap;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardText, CardBody, CardTitle } from "reactstrap";
 
 const StarWardsCard = props => {
-    console.log(props);
+    // console.log(props);
     return (
         <div className="starwars-card">
             <Card>
