@@ -23,21 +23,19 @@ const App = () => {
     return (
         <div className="App">
             <h1 className="Header">React Wars</h1>
-            <div className="starwars-list">
-                <ul>
-                    {characters.map(character => {
-                        return (
-                            <StarWarsCard
-                                name={character.name}
-                                hair_color={character.hair_color}
-                                skin_color={character.skin_color}
-                                eye_color={character.eye_color}
-                                gender={character.gender}
-                                key={character.name}
-                            />
-                        );
-                    })}
-                </ul>
+            <div className="card-container">
+                {characters.map(character => {
+                    return (
+                        <StarWarsCard
+                            name={character.name}
+                            hair_color={character.hair_color}
+                            skin_color={character.skin_color}
+                            eye_color={character.eye_color}
+                            gender={character.gender}
+                            key={character.url}
+                        />
+                    );
+                })}
             </div>
         </div>
     );

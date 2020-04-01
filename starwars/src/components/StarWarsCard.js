@@ -4,15 +4,15 @@ import { Card, CardText, CardBody, CardTitle } from "reactstrap";
 const StarWardsCard = props => {
     console.log(props);
     return (
-        <div>
+        <div className="starwars-card">
             <Card>
                 <CardBody>
-                    <CardTitle>{props.name}</CardTitle>
-                    {/* <CardSubtitle>Card subtitle</CardSubtitle> */}
-                    <CardText>{props.hair_color}</CardText>
-                    <CardText>{props.skin_color}</CardText>
-                    <CardText>{props.eye_color}</CardText>
-                    <CardText>{props.gender}</CardText>
+                    <CardTitle>Space traveler</CardTitle>
+                    <CardText>Name: {props.name}</CardText>
+                    <CardText>Hair color: {props.hair_color}</CardText>
+                    <CardText>Skin color: {props.skin_color}</CardText>
+                    <CardText>Eye color: {props.eye_color}</CardText>
+                    <CardText>Gender: {props.gender}</CardText>
                 </CardBody>
             </Card>
         </div>

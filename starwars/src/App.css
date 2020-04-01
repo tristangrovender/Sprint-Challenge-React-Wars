@@ -4,5 +4,33 @@
 .Header {
     color: #443e3e;
     text-shadow: 1px 1px 5px #fff;
+    font-size: 3.5em;
 }
 /* write your parent styles in here for your App.js */
+.card-container {
+    max-width: vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.starwars-card {
+    width: 500px;
+    margin: 20px;
+}
+
+.card {
+    margin: 30px;
+    height: 300px;
+    width: 425px;
+    max-width: 500px;
+}
+
+.card-body {
+    background-color: black;
+    color: white;
+}
+
+.card-title {
+    font-size: 2em;
+    color: grey;
+}
